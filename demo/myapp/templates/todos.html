@@ -1,10 +1,9 @@
 {% extends "base.html" %} {% block content %}
-<h1>Todo List</h1>
-<ul>
-    {% for todo in todos%}
-    <li>
-        {{ todo.title }}: {% if todo.completed %}Completed {% else %}Not completed {% endif %}
-    </li>
-    {% endfor %}
-</ul>
+<h1>Congratulations!</h1>
+<br>
+<h2>Your booking has been added!</h2>
+
+<a href="{% url 'home' %}">
+    <button type="button">Go to Home</button>
+  </a>
 {% endblock %}
