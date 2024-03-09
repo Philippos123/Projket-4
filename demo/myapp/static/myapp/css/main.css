@@ -1,0 +1,41 @@
+body {
+    background-color: #F5F5DC; /* Beige eller annan krämig färg */
+    color: #333333; /* Mörkgrå textfärg */
+    margin: 0;
+    padding: 0;
+}
+
+h1, p{
+    color: #333333;
+}
+
+.content-container{
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 20%);
+}
+
+.banner {
+    height: 200px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/plant-pottingshed-4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron {
+    background: none;
+    height: 20%;
+}
+
+.container-fluid {
+    color: white;
+}
+
+
+.img-responsive{
+    max-width: 60%;
+    max-height: 200px; 
+    height: auto;
+}

@@ -3,6 +3,7 @@ from .models import TodoItem
 from .forms import CustomerForm
 from .models import Customer
 from datetime import datetime
+from .models import News
 
 def home(request):
     return render(request,"home.html")
@@ -41,5 +42,15 @@ def book(request):
 
     context = {'form': form}
     return render(request, "book.html", context)
+
+
+def news_list(request):
+    news_list = News.objects.all()
+    return render(request, 'news_list.html', {'news_list': news_list})
+
+
+def home(request):
+    news_list = News.objects.all().order_by('-created_at')[:5]  
+    return render(request, 'home.html', {'news_list': news_list})
 
 

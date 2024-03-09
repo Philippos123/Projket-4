@@ -1,4 +1,29 @@
-{% extends "base.html" %} {% block title %} Home Page {% endblock %}
+{% extends "base.html" %} 
+
+{% load crispy_forms_tags static %}
+{% block title %} Home Page {% endblock %}
+
 {% block content %}
-<p>this is the home page</p>
+<div class="banner"></div>
+
+<div class="content-container">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+            <h1 class="display-4">Welcome to Our Website</h1>
+            <br>
+            <p class="lead">Welcome to Swedish dishes!.</p>
+            
+        </div>
+        {% for news in news_list %}
+        <div class="news-post">
+            <h2>{{ news.title }}</h2>
+            <p>{{ news.content }}</p>
+            <img src="{{ news.image.url }}" alt="{{ news.title }}" class="img-responsive" style="height: auto; width: 40%;">
+            <p>Published on: {{ news.created_at }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 {% endblock %}
+
+
