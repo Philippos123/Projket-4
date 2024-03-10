@@ -50,7 +50,7 @@ def news_list(request):
 
 
 def home(request):
-    news_list = News.objects.all().order_by('-created_at')[:5]  
+    news_list = News.objects.all().order_by('-created_at')[:3]  
     return render(request, 'home.html', {'news_list': news_list})
 
 

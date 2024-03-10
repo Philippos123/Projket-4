@@ -1,5 +1,7 @@
 {% extends "base.html" %} 
 
+{% load static %}
+
 {% load crispy_forms_tags static %}
 {% block title %} Home Page {% endblock %}
 
@@ -7,20 +9,44 @@
 <div class="banner"></div>
 
 <div class="content-container">
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" >
         <div class="container-fluid">
             <h1 class="display-4">Welcome to Our Website</h1>
-            <br>
-            <p class="lead">Welcome to Swedish dishes!.</p>
             
+            <p class="lead">Welcome to Swedish dishes!.</p>
         </div>
+
+
+        <div class="about-us-container">
+            <div class="about-us">
+                <p style="color: wheat;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Euismod elementum nisi quis eleifend quam. Id donec ultrices tincidunt arcu non sodales. Enim eu turpis egestas pretium. Bibendum est ultricies integer quis auctor elit sed vulputate mi.
+                    Ut tellus elementum sagittis vitae. Leo vel fringilla est ullamcorper. Cras sed felis eget velit aliquet. Semper feugiat nibh sed pulvinar proin. Amet mattis vulputate enim nulla aliquet. 
+                    Turpis egestas maecenas pharetra convallis posuere morbi. Arcu dictum varius duis at consectetur. Mi proin sed libero enim sed faucibus.
+                
+                    Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Amet consectetur adipiscing elit ut aliquam purus sit.
+                    Nulla malesuada pellentesque elit eget gravida cum. Dolor sed viverra ipsum nunc aliquet bibendum enim. Tincidunt tortor aliquam nulla facilisi cras fermentum odio. 
+                    Pellentesque nec nam aliquam sem et tortor consequat id. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Vitae ultricies leo integer malesuada. 
+                    Scelerisque varius morbi enim nunc faucibus a pellentesque sit. Magna fringilla urna porttitor rhoncus.
+                    At quis risus sed vulputate odio. Tellus orci ac auctor augue mauris augue neque.</p>
+                </div>
+        </div>
+        
+        <h1 class="news-header">News!
+            <hr>
+        </h1>
+        
         {% for news in news_list %}
+        
         <div class="news-post">
             <h2>{{ news.title }}</h2>
+            
+            <img src="{{ news.image.url }}" alt="{{ news.title }}" class="img-responsive" style="height: auto; width: 30%;">
             <p>{{ news.content }}</p>
-            <img src="{{ news.image.url }}" alt="{{ news.title }}" class="img-responsive" style="height: auto; width: 40%;">
             <p>Published on: {{ news.created_at }}</p>
+            
         </div>
+        
         {% endfor %}
     </div>
 </div>
