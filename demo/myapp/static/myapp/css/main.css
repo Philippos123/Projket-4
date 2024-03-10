@@ -87,3 +87,28 @@ h1, p{
 
 }
 
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+
+.info-list, h3{
+
+    padding-top: 30px;
+    font-weight: 700;
+    color: #bfa988;
+}
+
+.info-list, p {
+    font-weight: 400;
+    color: black;
+}
+
+.thick-font{
+    font-weight: 700;
+
+}
