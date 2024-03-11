@@ -54,3 +54,7 @@ def home(request):
     return render(request, 'home.html', {'news_list': news_list})
 
 
+def register(respons):
+    return render()
+
+
