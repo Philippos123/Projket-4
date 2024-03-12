@@ -1,1 +1,1 @@
-web: node index.js
+web: demo.wsgi:application
