@@ -17,7 +17,7 @@ TEMPLATSE_DIR = os.path.join(BASE.DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['my-project-4-524b015374ef.herokuapp.com/', 'localhost']
 CSRF_TRUSTED_ORIGINS = ['https://8000-philippos123-projket4-y1lgtm9j62d.ws-eu108.gitpod.io','https://8000-philippos123-projket4-y1lgtm9j62d.ws-eu108.gitpod.io']
