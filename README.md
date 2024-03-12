@@ -1,5 +1,13 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+
+
+# Before you read! 
+
+### Alot of my work comes from tons of youtube videos. Shoutout to https://www.youtube.com/@TechWithTim 
+
+
+
 Welcome,
 
 This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
