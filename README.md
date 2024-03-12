@@ -4,7 +4,10 @@
 
 # Before you read! 
 
-### Alot of my work comes from tons of youtube videos. Shoutout to https://www.youtube.com/@TechWithTim 
+### Alot of my work comes from tons of YouTube videos. Shoutout to https://www.youtube.com/@TechWithTim 
+
+
+My apologies but I  had no time left for the README page cuz I have been sitting for 60+ hours on this project with 6 days left on the submission. So I tried to do the best I could with the time I had left. 
 
 
 
