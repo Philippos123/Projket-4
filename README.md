@@ -47,14 +47,15 @@ As an admin you are able to write and update the news on your website with a tex
 - Hosting: Heroku
 - Static and Media Files: Cloudinary
 ## Setup and Installation
-Prerequisites
-Ensure you have the following installed on your system:
-
-Python 3.9 or higher
-pip (Python package installer)
-Git
 
 1. I Linked my heroku to my rep from github 
 2. Put in the config vars for Cloudinary, database and secret key 
 3. I ran "Deploy bransch" 
 4. And then the program was online.  
+
+# Admin panel 
+If you want to take a look at the admin panel go to this link https://my-project-4-524b015374ef.herokuapp.com/admin/
+- And use the username admin123 and password admin123 
+1. Firt you will see inside "MYAPP" Customer and News. 
+2. Customer is the bookings 
+3. News is where you can upload images to the "NEWS" 
