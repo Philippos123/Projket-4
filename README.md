@@ -4,15 +4,7 @@ Welcome to Swedish Dishes, a restaurant website that offers a unique culinary ex
 The live website can you find here! - https://my-project-4-524b015374ef.herokuapp.com/
 
 
-- Table of Contents
-- Project Overview
-- Features
-- Technologies Used
-- Setup and Installation
-- Usage
-- Contributing
-- License
-- Project Overview
+
 
 ## Swedish Dishes is a web application designed to enhance the dining experience by providing an easy-to-navigate platform where users can explore the menu, learn about the restaurant, and make reservations.
 
