@@ -22,7 +22,7 @@ DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['my-project-4-524b015374ef.herokuapp.com', 'localhost', '8000-philippos123-projket4-2rhu38dmlic.ws-eu114.gitpod.io']
+ALLOWED_HOSTS = ['https://my-project-4-524b015374ef.herokuapp.com/', 'localhost', '8000-philippos123-projket4-2rhu38dmlic.ws-eu114.gitpod.io']
 CSRF_TRUSTED_ORIGINS = ['https://8000-philippos123-projket4-y1lgtm9j62d.ws-eu108.gitpod.io','https://8000-philippos123-projket4-2rhu38dmlic.ws-eu114.gitpod.io']
 
 
