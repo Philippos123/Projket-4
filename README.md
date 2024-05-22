@@ -47,7 +47,21 @@ As an admin you are able to write and update the news on your website with a tex
 
 # Admin panel 
 If you want to take a look at the admin panel go to this link https://my-project-4-524b015374ef.herokuapp.com/admin/
-- And use the username admin123 and password admin123 
+- And use the username *** and password **(You will find these inside the submission form)
 1. Firt you will see inside "MYAPP" Customer and News. 
 2. Customer is the bookings 
 3. News is where you can upload images to the "NEWS" 
+
+
+# Cred 
+Shoutout to https://www.youtube.com/@TechWithTim for helping me understand the fundimentals with the diffrence between "project" and "app" 
+He helpt me alot with the fundimentals on how django is built. 
+
+# Bugs 
+
+There are an really annoying bug that I haven't been able to fix yet wich is with Cloudinary. For some reason the images that lay inside the "static" file doesnt load
+but the images for "news" does. I had a bug where nothing from the static file loaded like the css but i fixed that. 
+
+I am looking at designing the login and logout sites, but i used a template from a command i dont remember. But it made a laborinth for me. If you are intrested in what i mean with laborinth take a look at "templates" and "allauth" & "account" 
+
+# Sheers! 
