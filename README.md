@@ -27,7 +27,7 @@ Wich is nessecary to book a table at our resturant that will pop up after you lo
 
 - Error with booking 
 I put in a 15 minuter timer wich makes it impossible to book a table 18:00 and somelse comes and book 18:10 or 17:46 so there wont be to many orders at the same time. 
-![alt text](../Projket-4/myapp/static/myapp/img/Bussi%20swedish.JPG)
+![alt text](image.JPG)
 
 - Responsive Design: The website is designed to be fully responsive and user-friendly across different devices.
 
