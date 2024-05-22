@@ -34,7 +34,7 @@ def book(request):
             if not existing_booking:
                 
                 form.save()
-                return redirect('todos')
+                return redirect('home')
             else:
                 
                 form.add_error(None, "This date and time is already booked.")

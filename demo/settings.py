@@ -18,12 +18,12 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['my-project-4-524b015374ef.herokuapp.com', 'localhost', '8000-philippos123-projket4-y1lgtm9j62d.ws-eu108.gitpod.io']
-CSRF_TRUSTED_ORIGINS = ['https://8000-philippos123-projket4-y1lgtm9j62d.ws-eu108.gitpod.io','https://8000-philippos123-projket4-y1lgtm9j62d.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['my-project-4-524b015374ef.herokuapp.com', 'localhost', '8000-philippos123-projket4-2rhu38dmlic.ws-eu114.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-philippos123-projket4-y1lgtm9j62d.ws-eu108.gitpod.io','https://8000-philippos123-projket4-2rhu38dmlic.ws-eu114.gitpod.io']
 
 
 # Application definition
@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'demo.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 #DATABASES = {
-#    'default': {
+#     'default': {
 #        'ENGINE': 'django.db.backends.sqlite3',
 #        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #    }
@@ -99,8 +99,8 @@ WSGI_APPLICATION = 'demo.wsgi.application'
 
 
 DATABASES = {
-     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
- }
+    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+}
 
 
 
