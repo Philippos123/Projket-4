@@ -35,7 +35,7 @@ I put in a 15 minuter timer wich makes it impossible to book a table 18:00 and s
 - As admin you are able to see how many are coming and who is the person that booked the table. 
 ### NEWS!
 As an admin you are able to write and update the news on your website with a text and a picture wich will be showed in the bottom of the website
-![alt text](../Projket-4/myapp/static/myapp/img/News%20swedish.JPG)
+![alt text](img/News%20swedish.JPG)
 
 
 ## Technologies Used
