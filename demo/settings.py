@@ -168,3 +168,9 @@ STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 STATIC_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dhpnihgnt',
+    'API_KEY': '755522193739316',
+    'API_SECRET': 'CkWGxxSi-cC2nWVOC0jtdbYFkMk',
+}
