@@ -12,8 +12,6 @@ urlpatterns = [
     path('contact/', views.contact, name="contact"),
     path('news/', views.news_list, name='news_list'),
     path('accounts/', include('allauth.urls')),
-
-    
 ]
 
 

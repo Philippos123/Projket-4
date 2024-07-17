@@ -96,18 +96,28 @@ h1, p{
 
 
 .info-list, h3{
-
+    font-size: 42px;
     padding-top: 30px;
     font-weight: 700;
-    color: #bfa988;
+    color: rgb(161, 125, 71);
 }
 
 .info-list, p {
     font-weight: 400;
+    font-size: medium;
     color: black;
 }
 
 .thick-font{
     font-weight: 700;
+
+}
+
+.info-text{
+    
+    margin-bottom: 30px;
+    text-align: left;
+}
+body{
 
 }
